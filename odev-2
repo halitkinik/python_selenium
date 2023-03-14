@@ -1,0 +1,59 @@
+ogrneciListesi = []
+
+#Aldığı isim soy isim ile listeye öğrenci ekleyen
+def ogrenciEkle(isim, soyisim):
+    return isim, soyisim
+
+ogrenci_1 = ogrenciEkle("Halit", "KINIK")
+ogrneciListesi.append(ogrenci_1)
+print(ogrneciListesi)
+
+print("*******")
+
+#Aldığı isim soy isim ile eşleşen değeri listeden kaldıran
+def ogrenciSil(isim, soyisim):
+    return isim, soyisim
+
+ogrenciSil_1 = ogrenciSil("Halit", "KINIK")
+ogrneciListesi.remove(ogrenciSil_1)
+print(ogrneciListesi)
+
+print("**********")
+
+#Listeye birden fazla öğrenci eklemeyi mümkün kılan
+def multiEkle():
+    while True:
+        isim = input("isim giriniz: ")
+        soyisim = input("soyisim giriniz: ")
+        tamAd = (isim + " "+ soyisim)
+        ogrenciListesi.append(tamAd)
+        print(ogrenciListesi)
+multiEkle()
+
+#Listedeki tüm öğrencileri tek tek ekrana yazdıran
+def ogrencileriYazdir():
+    for ogrenci in ogrneciListesi:
+        print(ogrenci)
+ogrencileriYazdir()
+
+
+
+#Ö ğrencinin listedeki index numarası öğrenci numarası olarak kabul edildiğini düşünerek öğrencinin numarasını öğrenmeyi mümkün kılan
+
+def indexBul():
+    if ogrenciNum in ogrenciListesi:
+        print(f"{ogrenciNum} kişisinin numarasi {ogrenciListesi.index(ogrenciNum)}")
+    else:
+        print("Ogrenci yok")
+indexBul()
+
+
+# Listeden birden fazla öğrenci silmeyi mümkün kılan (döngü kullanınız)
+def cokluSil():
+    while True:
+        isim = input("Ogrenci isim: ")
+        soyisim = input("Ogrenci soyisim: ")
+        fullName = (isim+ " "+ soyisim)
+        ogrenciListesi.remove(fullName)
+        print(ogrenciListesi)
+cokluSil()
