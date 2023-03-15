@@ -28,3 +28,14 @@ class Matematik:
 matematik = Matematik(5,3)
 sonuc = matematik.carp()
 print(f"sonuc: {sonuc}")
+
+
+class Person:
+    def __init__(self,name,surname):
+        self.name = name
+        self.surname = surname
+
+musteri1 = Person("Halit","KINIK")
+musteri2 = Person("Taha","KINIK")
+musteri3 = Person("Hasan","KINIK")
+print(musteri1.name)
