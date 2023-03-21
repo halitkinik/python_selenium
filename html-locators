@@ -1,0 +1,37 @@
+# HTML NEDİR?
+
+# HTML, Hiper Metin İşaretleme Dili anlamına gelir
+# HTML, Web sayfaları oluşturmak için standart biçimlendirme dilidir
+# HTML, bir Web sayfasının yapısını açıklar
+# HTML bir dizi öğeden oluşur
+# HTML öğeleri, tarayıcıya içeriğin nasıl görüntüleneceğini söyler
+# HTML öğeleri, "bu bir başlıktır", "bu bir paragraftır", "bu bir bağlantıdır" vb. gibi içerik parçalarını etiketler.
+
+# HTML LOCATORS
+
+# Konumlandırıcılar, bir web sayfasındaki bir HTML öğesini tanımlamanın yoludur ve neredeyse tüm otomasyon araçları, bir web sayfasındaki HTML öğelerinin tanımlanması için konumlandırıcıları kullanma yeteneği sağlar.
+
+# ClassName – ClassName işleci, bir nesneyi tanımlamak için bir sınıf özniteliği kullanır.
+# ID - Sınıfa benzer şekilde, 'id' özniteliğini kullanarak öğeleri de tanımlayabiliriz.
+# tagName – Öğeleri bulmak için bir etiket de kullanabiliriz
+# xpath – Xpath, XML belgesini sorgulamak için kullanılan dildir. Aynısı, herhangi bir sayfadaki web öğesini benzersiz bir şekilde tanımlayabilir.
+#Attribute - Nitelik(attribute), bir HTML öğesinin, öğe hakkında ek bilgi sağlayan bir özelliğidir. Attribute, öznitelik değerlerine göre öğeleri bulmak için kullanılır.
+
+# SELENIUM AKSİYONLARI
+
+# click - Bir öğeyi tıklar.
+# click_and_hold - Bir öğe üzerinde farenin sol düğmesini basılı tutar.
+# send_keys - Anahtarları geçerli odaklanılan öğeye gönderir.
+# context_click - Bir öğe üzerinde bağlam tıklaması (sağ tıklama) gerçekleştirir.
+# double_click - Bir öğeyi çift tıklar.
+# release - Bir öğe üzerinde tutulan bir fare düğmesini serbest bırakma.
+# pause - Tüm girişleri saniye cinsinden belirtilen süre boyunca duraklat
+# drag_and_drop - Kaynak öğe üzerinde farenin sol düğmesini basılı tutar, ardından hedef öğeye gider ve fare düğmesini bırakır.
+# drag_and_drop_by_offset - Kaynak eleman üzerinde sol fare düğmesini basılı tutar, ardından hedef ofsete hareket eder ve fare düğmesini bırakır.
+# key_down - Serbest bırakmadan yalnızca bir tuşa basma gönderir.
+# key_up - Bir değiştirici tuşu serbest bırakır.
+# move_to_element - Fareyi bir öğenin ortasına hareket ettirmek.
+# move_to_element_with_offset - Fareyi belirtilen öğenin bir ötelemesi kadar hareket ettirin, Ötelemeler, öğenin sol üst köşesine göredir.
+# perform - Depolanan tüm eylemleri gerçekleştirir.
+# move_by_offset - Fareyi, geçerli fare konumundan bir uzaklığa taşıma.
+# reset_actions - Halihazırda yerel olarak ve uzak uçta depolanan eylemleri temizler
