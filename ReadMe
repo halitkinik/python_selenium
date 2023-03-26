@@ -1,0 +1,7 @@
+
+@pytest.mark.parametrize: test işlevinde veya sınıfında birden çok bağımsız değişken ve bağlantı kümesi tanımlamaya izin verir.
+@pytest.fixture: uygulamalarımızın durumlarını ve bağımlılıklarını yönetmek için kullanılabilen işlevlerdir.
+@pytest.mark.skip: pytest tarafından sağlanan ve test işlevlerinin yürütülmesini atlamak için kullanılan böyle bir belirteçtir.
+@pytest.mark.xfail: bir testin herhangi bir nedenle başarısız olmasını beklediğiniz anlamına gelir. Yaygın bir örnek, henüz uygulanmayan bir özellik veya henüz düzeltilmemiş bir hata için yapılan testtir.
+@pytest.mark.timeout: testin belirli bir sürede tamamlanması gerektiğini işaret eder. Testin sonsuza kadar çalışmasını önlemek için bu dekoratör kullanılabilir.
+@pytest.mark.slow: bir testin yavaş çalıştığını ve diğer testlerin zamanlamasını etkileyebileceğini belirtir. Bu dekoratör kullanılarak yavaş testlerin belirtilmesi, çalışma zamanı açısından optimize edilebilir.
